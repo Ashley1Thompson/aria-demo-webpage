@@ -36,7 +36,7 @@ button:focus-visible {
 }
 
 
-#Home {background-color: red;}
-#Accordions {background-color: green;}
-#Navigation {background-color: blue;}
-#InteractiveElements {background-color: darkorange;}
+#Home {background-color: #0f0d4a;}
+#Accordions {background-color: #0f0d4a;}
+#Navigation {background-color: #0f0d4a;}
+#InteractiveElements {background-color: #0f0d4a;}

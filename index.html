@@ -10,30 +10,31 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </head>
 <body>
-    <button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">Home</button>
-    <button class="tablink" onclick="openPage('Accordions', this, 'green')">Accordions</button>
-    <button class="tablink" onclick="openPage('Navigation', this, 'blue')">Navigation</button>
-    <button class="tablink" onclick="openPage('InteractiveElements', this, 'darkorange')">Interactive Elements</button>
-    
-    <div id="Home" class="tabcontent">
-      <h1>Home</h1>
-      <p>How to use this site to demonstrate ARIA</p>
-    </div>
-    
-    <div id="Accordions" class="tabcontent">
-      <h1>Accordions</h1>
-      <p>Proper use of ARIA with accordions</p> 
-    </div>
-    
-    <div id="Navigation" class="tabcontent">
-      <h1>Navigation</h1>
-      <p>Proper use of ARIA with navigation</p>
-    </div>
-    
-    <div id="InteractiveElements" class="tabcontent">
-      <h1>Interactive Elements</h1>
-      <p>Proper use of ARIA with interactive elements like Icons with purpose, toggle switches, etc </p>
-    </div>
+    <button class="tablink" onclick="openPage('Home', this, '#0f0d4a')" id="defaultOpen">Home</button>
+    <button class="tablink" onclick="openPage('Accordions', this, '#0f0d4a')">Accordions</button>
+    <button class="tablink" onclick="openPage('Navigation', this, '#0f0d4a')">Navigation</button>
+    <button class="tablink" onclick="openPage('InteractiveElements', this, '#0f0d4a')">Interactive Elements</button>
+    <main>   
+        <div id="Home" class="tabcontent">
+        <h1>Home</h1>
+        <p>How to use this site to demonstrate ARIA</p>
+        </div>
+        
+        <div id="Accordions" class="tabcontent">
+        <h1>Accordions</h1>
+        <p>Proper use of ARIA with accordions</p> 
+        </div>
+        
+        <div id="Navigation" class="tabcontent">
+        <h1>Navigation</h1>
+        <p>Proper use of ARIA with navigation</p>
+        </div>
+        
+        <div id="InteractiveElements" class="tabcontent">
+        <h1>Interactive Elements</h1>
+        <p>Proper use of ARIA with interactive elements like Icons with purpose, toggle switches, etc </p>
+        </div>
+    </main> 
     <script>
         function openPage(pageName,elmnt,color) {
     var i, tabcontent, tablinks;
