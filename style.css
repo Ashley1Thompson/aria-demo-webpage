@@ -35,8 +35,13 @@ button:focus-visible {
   background-color: #777;
 }
 
-
 #Home {background-color: #045479;}
 #Accordions {background-color: #045479;}
 #Navigation {background-color: #045479;}
 #InteractiveElements {background-color: #045479;}
+
+#home-top-img {
+  height: 100px;
+  width: 200px;
+  padding: 5px;
+}
