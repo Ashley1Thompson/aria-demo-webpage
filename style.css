@@ -32,7 +32,7 @@ body, html {
 
 /* visible focus for keyboard */
 button:focus-visible {
-  outline: 3px solid black;
+  background-color: #777;
 }
 
 
