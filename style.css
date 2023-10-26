@@ -77,7 +77,7 @@ button:focus-visible {
 }
 
 .accordion-trigger {
-  background: none;
+  background: hsl(216deg 94% 94%);
   color: hsl(0deg 0% 13%);
   display: block;
   font-size: 1rem;
